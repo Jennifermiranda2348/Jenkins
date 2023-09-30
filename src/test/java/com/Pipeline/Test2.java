@@ -16,6 +16,7 @@ public class Test2 extends BaseClass{
 	public void pollSCM()
 	{
 		System.out.println("poll scm execution is successful");
+		System.out.println("New build");
 	}
 
 }

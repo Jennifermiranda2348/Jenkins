@@ -15,6 +15,7 @@ public class Test1 extends BaseClass{
 	public void impactArea()
 	{
 		System.out.println("Impact area is found");
+		System.out.println("Verified");
 	}
 
 }
