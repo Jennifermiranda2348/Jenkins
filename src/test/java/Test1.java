@@ -10,7 +10,7 @@ public class Test1 extends BaseClass{
 	public void sample() {
 	System.out.println("Get some samples");
 	}
-	@Test
+	@Test(groups = "regression")
 	public void impactArea()
 	{
 		System.out.println("Impact area is found");
