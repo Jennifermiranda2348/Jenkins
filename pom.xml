@@ -62,46 +62,13 @@
     <version>5.0.9</version>
 </dependency>
 
-<dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<version>1.18.30</version>
-		<scope>provided</scope>
-	</dependency>
+
   
   </dependencies>
   
   
   
-  <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
-	</properties>
-	
-	<!--<profiles>
-		<profile>
-			<id>smoke</id>-->
-		<build>
-			<pluginManagement>
-				<plugins>
-					<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.1.2</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>Batch.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-				</plugins>
-			</pluginManagement>
-		</build>
-	<!--	</profile>
-	</profiles>-->
-      
-        
+  
       
     
 </project>
