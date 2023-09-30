@@ -11,7 +11,7 @@ public class Test0 extends BaseClass{
 	public void demo() {
 	System.out.println("hello selenium");
 	}
-	@Test
+	@Test(groups ="smoke")
 	public void regional()
 	{
 		System.out.println("Regional regression test executed");
