@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.GenericUtility.BaseClass;
 
-public class Test0 extends BaseClass{
+public class Test0{
 	
 	@Test(groups = "regression")
 	public void demo() {
